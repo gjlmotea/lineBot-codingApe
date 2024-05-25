@@ -120,7 +120,19 @@ def handle_message(event):
                                 text = '讓人有精神'),
                             URIAction(
                                 label = '伯朗咖啡',
-                                uri = 'https://www.mrbrown.com.tw/')])
+                                uri = 'https://www.mrbrown.com.tw/')]),
+                    # 第三個
+                    CarouselColumn(
+                        thumbnail_image_url='https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcTZCSmCzmIPm0up8wmW566cK5w3sSTUChT5UnaU3VnFxrHwoRNSnks0xUBmj2r2oeJk',
+                        title='這是可愛的貓咪',
+                        text='咪咪咪咪咪咪咪',
+                        actions=[
+                            MessageAction(
+                                label='吸貓有什麼好處',
+                                text='讓人有精神！'),
+                            URIAction(
+                                label='貓咪可愛嗎？',
+                                uri='https://puppy.hccg.gov.tw/ch/home.jsp?id=20033&parentpath=0,6')])
                 ])
             )
 
