@@ -57,7 +57,7 @@ def handle_message(event):
         buttons_template = TemplateSendMessage(
             alt_text = 'buttons template',
             template = ButtonsTemplate(
-                thumbnail_image_url='https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg',
+                thumbnail_image_url='https://treeman.tw/wp-content/uploads/2023/09/%E6%8B%BF%E9%90%B5%E5%9C%96.jpg',
                 title = 'Brown Cafe',
                 text = 'Enjoy your coffee',
                 actions = [
@@ -66,7 +66,7 @@ def handle_message(event):
                         text = '讓人有精神'),
                     URIAction(
                         label = '伯朗咖啡',
-                        uri = 'https://www.mrbrown.com.tw/')]
+                        uri = 'https://www.youtube.com/watch?v=-kvY2AmbLOE&list=RDQMWaU5e3UbmI0&start_radio=1')]
                 )
             )
 
