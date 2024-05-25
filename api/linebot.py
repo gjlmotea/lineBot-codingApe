@@ -43,10 +43,10 @@ def handle_message(event):
                 actions = [
                     MessageAction(
                         label = 'yes',
-                        text = 'yes'),
+                        text = '是的，我想喝一口！'),
                     MessageAction(
                         label = 'no',
-                        text = 'no')]
+                        text = '不，我不喝咖啡。')]
                 )
             )
         line_bot_api.reply_message(event.reply_token, confirm_template)
