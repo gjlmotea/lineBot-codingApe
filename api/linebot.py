@@ -86,7 +86,7 @@ def handle_message(event):
                         text = 'menu1',
                         actions = [
                             MessageAction(
-                                label = '咖啡有什麼好處',
+                                label = '咖啡有什麼好處呢？',
                                 text = '讓人有精神'),
                             URIAction(
                                 label = '伯朗咖啡',
