@@ -62,6 +62,21 @@ def handle_message(event):
                 text = 'Enjoy your coffee',
                 actions = [
                     MessageAction(
+                        label='1111111？',
+                        text='11111！'),
+                    MessageAction(
+                        label='2222？',
+                        text='22222！'),
+                    MessageAction(
+                        label='3333？',
+                        text='3333！'),
+                    MessageAction(
+                        label='4444？',
+                        text='4444！'),
+                    MessageAction(
+                        label='5555？',
+                        text='555！'),
+                    MessageAction(
                         label='今天要來一點咖啡嗎？',
                         text='我今天想喝咖啡！'),
                     MessageAction(
